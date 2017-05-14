@@ -29,9 +29,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#337ab7', end
 }
 
 .display-img{
+	display: block;
 	visibility: hidden;
-	height: 400px;
-	width: 400px;
+	width: 500px;
 	opacity: 0;
 	height: 0;
 }
@@ -50,9 +50,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#337ab7', end
 
 .thumbnail{
 	margin: 0;
-	width: 100%;
+	padding: 0;
+	width: 100px;
+	height: 100px;
     float: left;
     border: 1px solid #7d7d7d;
+    cursor: pointer;
 }
 
 .logo{
@@ -66,4 +69,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#337ab7', end
 .padding-vert-small{
 	padding-left: 5px;
 	padding-right: 5px;
+}
+
+.padding-top-small{
+	padding-top: 10px;
 }
